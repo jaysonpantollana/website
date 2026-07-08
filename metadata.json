@@ -1,0 +1,6 @@
+{
+  "name": "Product Showcase",
+  "description": "A responsive product showcase website for a solo seller to display and market products, with a hidden admin panel.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

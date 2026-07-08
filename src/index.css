@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-tech-bg: #F8FAFC;
+  --color-tech-surface: #FFFFFF;
+  --color-tech-border: #CBD5E1;
+  --color-tech-text: #0F172A;
+  --color-tech-muted: #64748B;
+  --color-tech-accent: #0EA5E9;
+  
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@utility bg-tech-dots {
+  background-image: radial-gradient(var(--color-tech-border) 1px, transparent 1px);
+  background-size: 16px 16px;
+}
